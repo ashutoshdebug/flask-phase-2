@@ -1,0 +1,15 @@
+FORMS:
+1) Always use name like usernames and passwords
+2) Always define the methods, like POST, GET etc.
+3) Make sure the path in form action should match the route in the app.py
+----------------------------------------------------------------------------
+
+JINJA 2:
+1) It helps to create dynamic HTML files, in which we can form loops, conditions, etc.
+2) It works only in HTML files.
+3) We can create resuable codes.
+
+<p>Welcome {{name}}</p>
+
+Conditionals:
+{% if %} ... your logic here... {% else %} ... your else conditions... {% endif %}
